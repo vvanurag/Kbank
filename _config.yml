@@ -2,7 +2,7 @@ title: Kbank
 description: Knowledge Bank
 google_analytics: 
 show_downloads: true
-theme: jekyll-theme-midnight
+theme: jekyll-theme-dinky
 
 gems:
   - jekyll-mentions
