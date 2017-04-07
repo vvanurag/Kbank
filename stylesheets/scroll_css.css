@@ -1,0 +1,35 @@
+﻿body, html {
+  margin: 0;
+  overflow: hidden;
+  height:100%;
+}
+
+@media (min-width: 768px){
+  #left {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 20%;
+    overflow-y: scroll; 
+  }
+  
+  #right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+	overflow-y: scroll;
+  }
+}
+
+#left {
+  background-color: #FC6E51;
+  text-align: center;
+  height:100%;
+}
+
+#right {
+  height:100%;
+  background-color: #4FC1E9;
+  text-align: center;
+}
