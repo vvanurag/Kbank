@@ -1,14 +1,13 @@
+<!DOCTYPE html>
 <html>
-<head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script> 
-   $(function(){
-    $("#headerDiv").load("header.html");
-   });  
-</script>
-</head>
+<script src="/javascripts/w3data.js"></script>
 <body>
-<div id="headerDiv"></div>
-<!-- Rest of the code -->
+
+<div w3-include-html="robotics_table.html"></div> 
+
+<script>
+w3IncludeHTML();
+</script>
+
 </body>
 </html>
