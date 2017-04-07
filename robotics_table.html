@@ -1,8 +1,192 @@
-<a href="howto_google_maps.asp">Google Maps</a><br>
-<a href="howto_css_animate_buttons.asp">Animated Buttons</a><br>
-<a href="howto_css_modals.asp">Modal Boxes</a><br>
-<a href="howto_js_animate.asp">Animations</a><br>
-<a href="howto_js_progressbar.asp">Progress Bars</a><br>
-<a href="howto_css_dropdown.asp">Hover Dropdowns</a><br>
-<a href="howto_js_dropdown.asp">Click Dropdowns</a><br>
-<a href="howto_css_table_responsive.asp">Responsive Tables</a><br>
+<table>						<!-- Tree Starts Here -->
+					<td>
+
+								<span class="stm-icon"></span>
+								<span class="stm-content"><a style="text-decoration: none" href="https://en.wikipedia.org/wiki/Robotics">Robotics</a></span>
+										
+						<ul id="Robotics"><!--**** Robotics subTree ****-->
+												
+												
+												<li><!--**** Planning and Navigation ****-->
+													<span class="stm-icon"></span>
+													<span class="stm-content"><a href = "/Topics/pathplanning.html">Path Planning</a></span>
+													
+													 <ul id="pathplanning"><!--**** Planning Tree ****-->
+													 
+														<li><!--**** Sampling based search ****-->
+																	 <span class="stm-icon"></span>	
+												 <!-- Topic -->      <span class="stm-content" style="color:red">Sampling based search</span>
+												 <!-- Start date --> <span class="stm-content" style="color:red"> (29th Sept)</span> 
+												 <!-- end date -->   <span style="color:Blue"> (3rd oct)</span>
+														</li><!--**** End Sampling based search ****-->
+														
+														<ul id="sampling based search"><!--**** Sampling based search Tree****-->
+													 
+															<li><!--**** Sampling based search ****-->
+																			 <span class="stm-icon"></span>
+													 <!-- Topic -->      <span class="stm-content" style="color:red">Probablistic Road Maps</span>
+													 <!-- Start date --> <span class="stm-content" style="color:red"> (29th Sept)</span> 
+													 <!-- end date -->   <span style="color:Blue"> (3rd oct)</span>
+															</li><!--**** ROS + Kinect ****-->
+															
+															<li><span style="color:red"> RRT and sisters</span> </li>
+													 
+														</ul><!--**** End Sampling based search ****-->
+													 
+													 </ul><!--**** End Planning Tree ****-->
+													
+												  </li><!--**** End Planning and Navigation ****-->
+												
+												
+												  <li><!--**** SLAM ****-->
+														<span class="stm-icon"></span>
+														<span class="stm-content" style="color:red">SLAM</span>
+														<ul>
+															<li>
+																<span>Bundle Adjustment</span>
+															</li>
+															<ul>
+																<li>
+																	<span> Minimization of reprojection </span>
+																</li>
+																<li>
+																	<span> Non-Linear Optimization </span>
+																</li>
+															</ul>
+														</ul>
+												  </li><!--**** End SLAM ****-->
+												
+									   
+										
+											 
+						</ul><!--**** End Robotics sub Tree ****-->
+
+							
+							
+							<ul><!-- ROS TREE -->
+							 <li> <!--**** ROS ****-->
+										<span class="stm-icon"></span>
+										<span class="stm-content"><a style="text-decoration: none" href="https://en.wikipedia.org/wiki/Robotics">ROS</a></span>
+							
+								<ul> <!--**** ROS Tree****-->
+								
+													
+													<li><!--**** ROS + Navigation ****-->
+																<span class="stm-icon"></span>
+											 <!-- Topic -->     	<span class="stm-content" style="color:blue"> ROS + Navigation</span>
+											 <!-- Start date -->    <span style="color:Red"> (10th oct)</span>
+											 <!-- end date -->      <span style="color:Blue"> (Mildly Completed 12th oct)</span>
+													
+												</li><!--**** End ROS + Navigation  ****-->
+												
+												
+													<li><!--**** LSD-SLAM Fromtier detection ****-->
+																	   <span class="stm-icon"></span>
+											<!-- Topic -->         <span class="stm-content" style="color:red"> LSD-SLAM + Frontier detection</span>
+											<!-- Start date -->    <span style="color:Red"> (4th oct)</span>
+											<!-- end date -->      <span style="color:Blue"> ()</span>
+													
+													<ul id="LSD-SLAM">
+															<li><!--**** Ready to collect data ****-->
+																	  <span class="stm-icon"></span>
+													 <!-- Topic -->       <span class="stm-content" style="color:blue"> Ready to collect Data</span>
+													 <!-- Start date -->  <span style="color:Red"> ()</span>
+													 <!-- end date -->    <span style="color:Blue"> (19th oct)</span>
+															
+														</li><!--**** End LSD-SLAM Fromtier detection  ****-->
+														<ul>
+															<!-- Description -->  <span> Prepared code to extract image and depth info from msgs from lsd_slam_core </span>
+														</ul>
+													
+													</ul>
+						
+												</li><!--**** End LSD-SLAM Fromtier detection  ****-->
+						
+						
+												
+												<li><!--**** ROS + LSD-SLAM + Octomap ****-->
+																 <span class="stm-icon"></span>
+											 <!-- Topic -->      <span class="stm-content" style="color:Blue">ROS + LSD-SLAM + Octomap</span>
+											 <!-- Start date --> <span style="color:Red"> ()</span> 
+											 <!-- end date -->   <span class="stm-content" style="color:Blue"> (29th Sept)</span> 
+											 
+												</li><!--**** End ROS + LSD-SLAM + Octomap ****-->
+												
+													<li><!--**** ROS + Kinect ****-->
+																 <span class="stm-icon"></span>
+											 <!-- Topic -->      <span class="stm-content" style="color:blue">ROS + Kinect</span>
+											 <!-- Start date --> <span class="stm-content" style="color:red"> (29th Sept)</span> 
+											 <!-- end date -->   <span style="color:Blue"> (3rd oct)</span>
+											 
+												</li><!--**** EROS + Kinect ****-->
+												
+												
+												
+												
+												
+									<li>
+										<span> Nodes, Topics, Services, Parameters, Msgs
+									</li>
+									<li>
+										<span> Tf, Transformations
+									</li>
+									<li>
+										<span> Octomap, Octomap_server
+									</li>
+									<li>
+										<span> ROS Navigation
+									</li>
+									<li>
+										<span> Moveit
+									</li>
+									
+								
+								</ul><!--**** End ROS Tree****-->
+							</li><!--**** END ROS ****-->
+							</ul><!--**** End ROS Tree****-->
+							
+							
+								
+							
+							
+							<ul id="demoTree"><!--**** Programming Tree****-->
+								<li> <!--**** Programming ****-->
+									<span class="stm-icon"></span>
+									<span class="stm-content" href="https://en.wikipedia.org/wiki/Robotics">Programming</a></span>
+							
+							<ul id="demoTree">
+										<li> <!--**** C++ ****-->
+									<span class="stm-icon"></span>
+											<span class="stm-content" href="https://en.wikipedia.org/wiki/Robotics">C++</a></span>
+								</li> <!--**** C++ ****-->
+									<ul>
+										<li> 
+											<span style="color:red"> Pointers(Light Reading) </span>
+										</li>
+									</ul> 
+							
+										<li> <!--**** Python ****-->
+									<span class="stm-icon"></span>
+											<span class="stm-content" href="https://en.wikipedia.org/wiki/Robotics">Python</a></span>
+								</li> <!--**** C++ ****-->
+							
+							
+										<li> <!--**** Algorithms ****-->
+									<span class="stm-icon"></span>
+											<span class="stm-content" href="https://en.wikipedia.org/wiki/Robotics">Algorithms</a></span>	
+								</li> <!--**** C++ ****-->
+							
+							
+										<li> <!--**** Data-Structures ****-->
+									<span class="stm-icon"></span>
+											<span class="stm-content" href="https://en.wikipedia.org/wiki/Robotics">Data Structures</a></span>
+								</li> <!--**** C++ ****-->
+								</ul>
+							
+							</li> <!--****End Programming ****-->
+							</ul> <!--****End Programming Tree ****-->
+					  </td>
+					  
+					  
+					  
+	</table>

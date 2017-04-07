@@ -19,6 +19,7 @@
     right: 0;
     width: 80%;
 	overflow-y: scroll;
+	text-align: left;
   }
 }
 
